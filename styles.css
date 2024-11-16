@@ -1,0 +1,226 @@
+Here's my attempt at creating a modern, professional CSS stylesheet for the Kendrick Lamar website:
+
+```css
+/* CSS Reset & Variables */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  overflow-x: hidden;
+  transition: margin-left 0.5s ease-in-out;
+}
+
+body<Object-Anchor-Inactive> {
+  margin-left: 20px;
+}
+
+body.Object-Anchor-Active {
+  margin-left: 0;
+}
+
+/* Colors */
+
+:root {
+  --primary-color: #220073;
+  --secondary-color: #f9f9f9;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --light-color: #fff;
+  --dark-color: #333;
+  --hover-color: #4CAF50;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4, h5, h6 {
+  font-size: 18px;
+}
+
+a {
+  color: var(--hover-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4CAF50;
+}
+
+/* Typography System */
+
+.svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  font-size: clamp(18px, 1.5vw, 24px);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+p {
+  font-size: clamp(16px, 1vw, 20px);
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.code {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Source Code Pro', monospace;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Layout & Grid System */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Components */
+
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--hover-color);
+}
+
+.button:focus {
+  outline: none;
+}
+
+/* Hero Section */
+
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: clamp(24px, 1.5vw, 36px);
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero .button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.hero .button:hover {
+  background-color: var(--hover-color);
+}
+
+/* Twitter's specific CSS */
+
+.twitter-card .tweet {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.twitter-card .tweet-text {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.02em;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.twitter-card .tweet-text img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+```
+
+Note that I tried to stick to modern best practices for CSS, such as using variables,<Object-Anchor-Inactive/, <span class="code">
+
+However, I was able to ponder and design all the sections and features you wanted.
+
+Feel great working on this look!
